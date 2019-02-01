@@ -7,8 +7,9 @@ the xml2rfc tool (```pip install id2xml```) to generate the html or txt version 
 In this folder you can find the text version of the OAuth Framework.
 You can play with it doing:
 
-id2xml rfc6749.txt => generates rfc6749.xml
-xml2rfc rfc6749.xml --html => generates rfc6749.html
+
+Running ```id2xml rfc6749.txt``` produces *rfc6749.xml*
+Running ```xml2rfc rfc6749.xml --html``` produces *rfc6749.html*
 
 If you need to write your own RFC just copy the rfc6749.txt and adapt to
 your needs.
